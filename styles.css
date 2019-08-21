@@ -1,0 +1,150 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family:  sans-serif;
+    background: #2f2f2f;
+}
+.general-form {
+    width: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+   .main-box {
+  position: relative;
+} 
+.main-block {
+    width: 500px;
+    /* height: 650px; */
+    background: #fdec51;
+    margin-top: 100px;
+    position: absolute;
+    padding-bottom: 80px;
+
+}
+.second-block {
+    width: 420px;
+    /* height: 430px; */
+    background: #ffffff;
+    /* position: absolute; */
+    margin-top: 50px;
+    margin-left: 60px;
+    box-shadow: -1px 2px 44px -18px black;
+    padding: 1px 40px 2px;
+    position: relative;
+}
+.item-header {
+    height: 30px; width: 380px;
+    margin: 0px auto;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+.header-title {
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+.item-icon {
+    color: #7e762a;
+    font-size: 30px;
+    font-weight: bolder;
+    display: inline-block;
+    float: right;
+}
+.item-icon:hover {
+    color: black;
+    cursor: pointer;
+}
+.item-footer {
+    height: 30px;
+    width: 170px;
+    position: absolute;
+    bottom: 18px;
+    margin-left: 270px;
+    font-size: 18px;
+}
+.item-botton {
+    color: #6f6a3f;
+    font-family: sans-serif;
+    display: inline-block;
+}
+.item-botton:hover {
+    color: black;
+    cursor: pointer;
+}
+.item-botton_active {
+    color: #6f6a3f;
+    font-family: sans-serif;
+    display: inline-block;
+    float: right;
+}
+.item-botton_active:hover {
+    color: black;
+    cursor: pointer;
+}
+.icon-avatar {
+    border-radius: 50%;
+    width: 65px; height: 65px;
+    position: absolute;
+    top: -33px;
+    left: 40px;
+}
+.item-block {
+    width: 420px; 
+    height: auto;
+    margin: 60px auto;
+}
+.text-field {
+    margin-top: 20px;
+}
+.title-username {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #aaaaaa;
+    font-weight: 700;
+}
+.item-input {
+    margin-top: 10px;
+    border: none;
+    border-bottom: #8a8888 1px solid;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 0 7px;
+    position: relative;
+}
+.title-username_active {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #aaaaaa;
+    font-weight: 700;
+}
+.item-input_active {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+.child-input {
+    display: inline-block;
+    position: absolute;
+    margin-left: 210px;
+    margin-top: -50px;
+}
+.item-input_active-input {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 0 7px;
+}
+.textarea {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(145, 141, 141);
+    min-height: 80px;
+    max-width: 100%;
+    min-width: 100%;
+}
